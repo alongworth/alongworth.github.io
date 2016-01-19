@@ -70,6 +70,16 @@ p {
 }
 
 .hero-head h1 {
+    text-align: left;
+    line-height: 1;
+    color: #fff;
+}
+
+.hero-head h2 {
+    text-align: left;
+}
+
+.hero-head.home h1 {
     margin: 0 auto 30px;
     background-color: transparent;
     border: 1px solid #cdbfe3;
@@ -84,14 +94,16 @@ p {
     line-height: 102px;
 }
 
-.hero-head h2 {
+.hero-head.home h2 {
     margin-top: 70px;
     font-size: 24px;
     color: #fff;
+    text-align: center;
 }
 
-.hero-head h3 {
+.hero-head.home h3 {
     color: #fff;
+    text-align: center;
 }
 
 .btn-outline-inverse {
