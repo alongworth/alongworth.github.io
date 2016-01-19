@@ -6,6 +6,9 @@ body {
     background-color: #fff;
     padding-bottom: 80px;
 }
+.d-none {
+    display: none;
+}
 
 .navbar {
     margin-bottom: 0px;
