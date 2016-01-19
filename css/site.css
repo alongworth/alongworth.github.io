@@ -87,6 +87,7 @@ p {
     text-align: left;
     line-height: 1;
     color: #fff;
+    font-size: 60px;
 }
 
 .hero-head h2 {
@@ -106,6 +107,7 @@ p {
     cursor: default;
     border-radius: 10px;
     line-height: 102px;
+    font-size: 36px;
 }
 
 .hero-head.home h2 {
