@@ -5,6 +5,7 @@ body {
     color: #333;
     background-color: #fff;
     padding-bottom: 80px;
+    position: relative;
 }
 .d-none {
     display: none;
@@ -38,11 +39,16 @@ body {
 .right-wrap {
     width: 250px;
     float: right;
+    padding-top: 65px;
 }
 
-.right-wrap .nav {
-    margin-top: 80px;
-    padding-left: 15px;
+#stacked-nav {
+    padding-top: 25px;
+}
+
+#stacked-nav.sticky {
+    position: fixed;
+    top: 0;
 }
 
 .page-header {

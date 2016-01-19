@@ -20,7 +20,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
       <![endif]-->
    </head>
-   <body>
+   <body data-spy="scroll" data-target="#stacked-nav">
       <nav class="navbar navbar-default">
          <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -49,7 +49,7 @@
       </nav>
       <div class="hero-head home">
          <div class="container">
-            <div class="alert alert-danger" role="alert"> <strong>Warning!</strong> This site is still under consutruct, all content is yet to be finalised. </div>
+            <!-- <div class="alert alert-danger" role="alert"> <strong>Warning!</strong> This site is still under consutruct, all content is yet to be finalised. </div> -->
             <h1>Consumer Directed Care</h1>
             <h2>Learn what is Consumer Directed Care</h2>
             <h3>Learn how Home Care Packages can help your family</h3>
@@ -60,28 +60,39 @@
       <div class="container">
          <div class="left-wrap">
             <div class="col-md-12">
-               <h1 class="page-header">What is Consumer Directed Care (CDC)</h1>
-               <h2 class="lead">The CDC provides home care packages for Australians over 65. Read through to see what suits your particular needs.</h2>
-               <p>Consumer directed care (CDC) is an Australian government funding initiative to provide Australians who are over 65 with access to Home Care Package (HCP).</p>
-               <p>This new initiative came into effect on 1 July 2015.</p>
-               <p>It aims to provide access to quality care at home. Most importantly, it allows complete control when making choices about the types of care and services you wish</p>
-               <p>A Home Care Package (HCP) using ‘Consumer directed care’ allows you to:</p>
-               <ul>
-                  <li>Determine your care and services such as how it is delivered, by whom and how often</li>
-                  <li>Create a personalised care plan with your service provider</li>
-                  <li>Flexibility to determine the level of involvement you have for managing your plan</li>
-                  <li>Understand how your HCP is funded</li>
-                  <li>Adjust your HCP so that your care needs are met</li>
-               </ul>
-               <h3 class="page-header">What does Consumer Directed Care (CDC) do?</h3>
-               <p class="lead">The CDC allows people to be cared for while living at home for as long as possible.</p>
-               <p>The CDC is a result of the The Federal Government’s Living Longer Better aged care reforms from 2012. These highlighted the importance of introducing greater choice, flexibility and persoanlisation to care at home.</p>
-               <h3 class="page-header">What is the future of the Consumer Directed Care?</h3>
-               <p>As part of the 2015 budget, the Federal Government announced that from February 2017:</p>
-               <ul>
-                  <li>Home care packages will be allocated to the consumer, allowing for them to choose what type of care they receive and who provides this care.</li>
-                  <li>The packages are portable, allowing for changes if the recipient wants to change service provider or if they move, they can take the package with them.</li>
-               </ul>
+               <div id="what-is">
+                  <h1 class="page-header">What is Consumer Directed Care (CDC)</h1>
+                  <h2 class="lead">The CDC provides home care packages for Australians over 65. Read through to see what suits your particular needs.</h2>
+                  <p>Consumer directed care (CDC) is an Australian government funding initiative to provide Australians who are over 65 with access to Home Care Package (HCP).</p>
+                  <p>This new initiative came into effect on 1 July 2015.</p>
+                  <p>It aims to provide access to quality care at home. Most importantly, it allows complete control when making choices about the types of care and services you wish</p>
+                  <p>A Home Care Package (HCP) using ‘Consumer directed care’ allows you to:</p>
+                  <ul>
+                     <li>Determine your care and services such as how it is delivered, by whom and how often</li>
+                     <li>Create a personalised care plan with your service provider</li>
+                     <li>Flexibility to determine the level of involvement you have for managing your plan</li>
+                     <li>Understand how your HCP is funded</li>
+                     <li>Adjust your HCP so that your care needs are met</li>
+                  </ul>
+               </div>
+               
+               <div id="what-does">
+                  <h3 class="page-header">What is the future of the Consumer Directed Care?</h3>
+                  <p>As part of the 2015 budget, the Federal Government announced that from February 2017:</p>
+                  <ul>
+                     <li>Home care packages will be allocated to the consumer, allowing for them to choose what type of care they receive and who provides this care.</li>
+                     <li>The packages are portable, allowing for changes if the recipient wants to change service provider or if they move, they can take the package with them.</li>
+                  </ul>
+               </div>
+
+               <div id="future">
+                  <h3 class="page-header">What is the future of the Consumer Directed Care?</h3>
+                  <p>As part of the 2015 budget, the Federal Government announced that from February 2017:</p>
+                  <ul>
+                     <li>Home care packages will be allocated to the consumer, allowing for them to choose what type of care they receive and who provides this care.</li>
+                     <li>The packages are portable, allowing for changes if the recipient wants to change service provider or if they move, they can take the package with them.</li>
+                  </ul>
+               </div>
             </div>
             <!-- Place this tag where you want the +1 button to render. -->
             <div class="g-plusone" data-annotation="none" data-href="http://consumerdirectedcare.com.au"></div>
@@ -92,11 +103,13 @@
          </div>
          <div class="right-wrap">
             <div class="col-sm-12">
-               <ul class="nav nav-pills nav-stacked">
-                  <li><a href="#">What is CDC</a></li>
-                  <li><a href="#">What does CDC do</a></li>
-                  <li><a href="#">Future of CDC</a></li>
-               </ul>
+               <div id="stacked-nav">
+                  <ul class="nav nav-pills nav-stacked" role="tablist">
+                     <li><a href="#what-is">What is CDC</a></li>
+                     <li><a href="#what-does">What does CDC do</a></li>
+                     <li><a href="#future">Future of CDC</a></li>
+                  </ul>
+               </div>
             </div>
          </div>
       </div>
@@ -105,6 +118,7 @@
       <!-- Include all compiled plugins (below), or include individual files as needed -->
       <!-- Latest compiled and minified JavaScript -->
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/cdc.js"></script>
       <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
