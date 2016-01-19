@@ -37,6 +37,11 @@ body {
     float: right;
 }
 
+.right-wrap .nav {
+    margin-top: 80px;
+    padding-left: 15px;
+}
+
 .page-header {
     padding-bottom: 9px;
     margin: 80px 0 20px;
