@@ -141,3 +141,34 @@ p {
 }
 
 /*End of Homepage*/
+
+
+
+
+
+
+
+@media (max-width:600px) { 
+    .hero-head.home h1 {
+        margin: 0 auto 30px;
+        background-color: transparent;
+        border: 1px solid #cdbfe3;
+        display: block;
+        font-weight: 500;
+        color: #fff;
+        text-align: center;
+        width: 360px;
+        height: 210px;
+        cursor: default;
+        border-radius: 10px;
+        line-height: 102px;
+        font-size: 36px;
+    }
+    .left-wrap {
+        width: 100%;
+        float: left;
+    }
+}
+@media (min-width:961px) { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
