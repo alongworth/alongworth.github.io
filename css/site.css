@@ -148,7 +148,7 @@ p {
 
 
 
-@media (max-width:600px) { 
+@media (max-width:768px) { 
     .hero-head.home h1 {
         margin: 0 auto 30px;
         background-color: transparent;
