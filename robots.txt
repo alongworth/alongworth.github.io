@@ -3,4 +3,4 @@ Disallow: /admin/
 Disallow: /app/
 Disallow: /*?
 
-sitemap: http://consumerdirectedcare.com.au/sitemap.xml
+sitemap: https://consumerdirectedcare.com.au/sitemap.xml
